@@ -131,7 +131,7 @@ def email():
     if request.values.get('email') != '':
         email = request.values.get('email')
         imagen = os.path.join(app.config["UPLOAD_FOLDER"],elemento['fondo'])
-        msg = Message("Fondos de pantalla Flask",sender="silvina.romero@gmx.com")
+        msg = Message("Fondos de pantalla Flask",sender="")
         msg.recipients = [email]
         msg.html = render_template("email.html",titulo=elemento['titulo'],descripcion=elemento['descripción'])
         # ############################## ADJUNTAR ARCHIVOS AL MAIL
