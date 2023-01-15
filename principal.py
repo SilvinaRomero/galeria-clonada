@@ -7,6 +7,11 @@ from bson import ObjectId
 from pymongo import MongoClient
 import os
 
+def usuario():
+    pass
+def password():
+    pass
+
 # creamos app flask y lanzamos el servidor
 app = Flask(__name__)
 
