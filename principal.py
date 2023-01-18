@@ -8,9 +8,6 @@ from pymongo import MongoClient
 import os
 
 
-def comprueba_fondo():
-    pass
-
 DOCUMENTOS = ["doc","docx"]
 
 
